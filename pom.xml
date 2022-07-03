@@ -8,12 +8,12 @@
 		<version>32.0.0-beta-4</version>
 	</parent>
 
-	<artifactId>keymap-idioms</artifactId>
+	<artifactId>keyconfig-examples</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 
-	<name>ui-behaviour idomatic keymap example</name>
-	<description>ui-behaviour idomatic keymap example</description>
-	<url>https://github.com/tpietzsch/keymap-idioms</url>
+	<name>keyconfig-examples</name>
+	<description>ui-behaviour idomatic keymap examples</description>
+	<url>https://github.com/tpietzsch/keyconfig-examples</url>
 	<inceptionYear>2022</inceptionYear>
 	<organization>
 		<name>BigDataViewer</name>
@@ -64,26 +64,26 @@
 	</mailingLists>
 
 	<scm>
-		<connection>scm:git:https://github.com/tpietzsch/keymap-idioms</connection>
-		<developerConnection>scm:git:git@github.com:tpietzsch/keymap-idioms</developerConnection>
+		<connection>scm:git:https://github.com/tpietzsch/keyconfig-examples</connection>
+		<developerConnection>scm:git:git@github.com:tpietzsch/keyconfig-examples</developerConnection>
 		<tag>HEAD</tag>
-		<url>https://github.com/tpietzsch/keymap-idioms</url>
+		<url>https://github.com/tpietzsch/keyconfig-examples</url>
 	</scm>
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/tpietzsch/keymap-idioms/issues</url>
+		<url>https://github.com/tpietzsch/keyconfig-examples/issues</url>
 	</issueManagement>
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/tpietzsch/keymap-idioms/actions</url>
+		<url>https://github.com/tpietzsch/keyconfig-examples/actions</url>
 	</ciManagement>
 
 	<properties>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>Tobias Pietzsch</license.copyrightOwners>
 
-		<ui-behaviour.version>2.0.6</ui-behaviour.version>
-		<bigdataviewer-core.version>10.4.1</bigdataviewer-core.version>
+		<ui-behaviour.version>2.0.7</ui-behaviour.version>
+		<bigdataviewer-core.version>10.4.3</bigdataviewer-core.version>
 
 		<!-- NB: Deploy releases to the SciJava Maven repository. -->
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
