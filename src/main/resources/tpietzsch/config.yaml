@@ -1,0 +1,9 @@
+---
+- !mapping
+  action: Action A
+  contexts: [demo]
+  triggers: [SPACE, A]
+- !mapping
+  action: Action B
+  contexts: [demo]
+  triggers: [N]
